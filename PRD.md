@@ -73,3 +73,15 @@ Lo studente ha la possibilità di vedere le comunicazioni di servizio nella sezi
 | Docente del corso           | Valida il PRD                       | _…_                | Presentazione e domande |
 | Collaudatori del primo anno | Usano ScuolaChill come utenti reali | _…_                | _Intervista, collaudo_  |
 | _Altri?_                    |                                     |                    |                         |
+
+## Scelte tecnologiche
+
+| Area             | Scelta | Alternativa considerata | Perché avete scelto così |
+| ---------------- | ------ | ----------------------- | ------------------------ |
+| Backend          | C#     | _…_                     | _…_                      |
+| Frontend         | _…_    | _…_                     | _…_                      |
+| Database         | _…_    | _…_                     | _…_                      |
+| Provider cloud   | _…_    | _…_                     | _…_                      |
+| Servizi cloud    | _…_    | _…_                     | _…_                      |
+| Regione          | _…_    | _…_                     | _…_                      |
+| Servizio esterno | _…_    | _…_                     | _…_                      |
