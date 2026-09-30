@@ -19,7 +19,7 @@
 
 #### Lato Business: permette di organizzare la scuola in modo completo, gestendo dove sono le classi in una specifica ora, poter gestire le assenze di una classe, i voti, la cronologia
 
-#### Non è inlcuso: avvisi per le famiglie?
+ #### Non è inlcuso: avvisi per le famiglie?, Account per i Genitori?
 
 ## TIPO DI SCUOLA
 
@@ -73,6 +73,20 @@ Lo Studente ha la possibilità di guardare le prossime lezioni e i propri compit
 
 Lo studente ha la possibilità di vedere le comunicazioni di servizio nella sezione delle notifiche importanti
 
+## REQUISITI NON FUNZIONALI
+
+| ID | Famiglia | Requisito | Soglia e condizione | Come si verifica | Storie collegate |
+| --- | --- | --- | --- | --- | --- |
+| NFR-01 | Prestazioni | *es. Apertura della verifica nel picco* | *es. meno di 2 s per il 95% delle richieste, 75 utenti nello stesso minuto* | *Test di carico* | *STU-02* |
+| NFR-02 | Sicurezza | *Il software ha bisogno di una pagina di login* | *se qualcuno prova ad accedere l'app senza aver fatto il login la prima cosa che spunta è la pagina di login* | *provando a entrare nell'app senza eseguire l'accesso* | *…* |
+| NFR-03 | Usabilità | *…* | *…* | *…* | *…* |
+| NFR-04 | Disponibilità | *…* | *…* | *…* | *…* |
+| NFR-05 | Ambientale | *…* | *…* | *…* | *…* |
+| NFR-06 | Supporto | *…* | *…* | *…* | *…* |
+| NFR-07 | Interazione | *…* | *…* | *…* | *…* |
+| NFR-08 | Conformità | *…* | *…* | *…* | *…* |
+
+
 ## STAKEHOLDER
 
 | Stakeholder                 | Cosa fa                             | Cosa gli interessa | Come lo coinvolgete     |
@@ -88,8 +102,8 @@ Lo studente ha la possibilità di vedere le comunicazioni di servizio nella sezi
 
 | Area             | Scelta | Alternativa considerata | Perché avete scelto così |
 | ---------------- | ------ | ----------------------- | ------------------------ |
-| Backend          | C#     | _…_                     | _…_                      |
-| Frontend         | _…_    | _…_                     | _…_                      |
+| Backend          | C# (Asp.Net )    | _…_                     | _…_                      |
+| Frontend         | React?    | _…_                     | _…_                      |
 | Database         | _…_    | _…_                     | _…_                      |
 | Provider cloud   | _…_    | _…_                     | _…_                      |
 | Servizi cloud    | _…_    | _…_                     | _…_                      |
