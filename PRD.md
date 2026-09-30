@@ -21,6 +21,16 @@
 
 #### Non è inlcuso: avvisi per le famiglie?
 
+## TIPO DI SCUOLA
+
+|  | Valore |
+| --- | --- |
+| Numero di studenti | *500* |
+| Numero di docenti | *12-15* |
+| Numero di classi | *20* |
+| Orario scolastico | *8:00 – 14:00, dal lunedì al venerdì* |
+| Connettività | *rete mobile* |
+
 ## Direttore
 
 ### User Story 1
