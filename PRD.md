@@ -82,8 +82,8 @@ Lo studente ha la possibilità di vedere le comunicazioni di servizio nella sezi
 | NFR-03 | Usabilità | *…* | *…* | *…* | *…* |
 | NFR-04 | Disponibilità | *…* | *…* | *…* | *…* |
 | NFR-05 | Ambientale | *…* | *…* | *…* | *…* |
-| NFR-06 | Supporto | *…* | *…* | *…* | *…* |
-| NFR-07 | Interazione | *…* | *…* | *…* | *…* |
+| NFR-06 | Supporto | *l'appiclazione deve funzionare sia su pc che su smartphone* | *l'applicazione deve essere visualizzabile sia su pc che su smartphone (magari consentendo la modifica solo su pc)* | *-* | *…* |
+| NFR-07 | Interazione | *il software deve essere facile da capire e responsivo* | *il software deve avere delle interazioni dove si capisce subito cosa fa una operazione* | *quando si fanno delle operazioni ci sono delle animazioni e nei pulsanti compaiono delle descrizioni* | *…* |
 | NFR-08 | Conformità | *…* | *…* | *…* | *…* |
 
 
