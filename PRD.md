@@ -19,17 +19,25 @@
 
 #### Lato Business: permette di organizzare la scuola in modo completo, gestendo dove sono le classi in una specifica ora, poter gestire le assenze di una classe, i voti, la cronologia
 
- #### Non è inlcuso: avvisi per le famiglie?, Account per i Genitori?
+#### Non è inlcuso: avvisi per le famiglie?, Account per i Genitori?
 
 ## TIPO DI SCUOLA
 
-|  | Valore |
-| --- | --- |
-| Numero di studenti | *500* |
-| Numero di docenti | *12-15* |
-| Numero di classi | *20* |
-| Orario scolastico | *8:00 – 14:00, dal lunedì al venerdì* |
-| Connettività | *rete mobile* |
+|                    | Valore                                |
+| ------------------ | ------------------------------------- |
+| Numero di studenti | _500_                                 |
+| Numero di docenti  | _12-15_                               |
+| Numero di classi   | _20_                                  |
+| Orario scolastico  | _8:00 – 14:00, dal lunedì al venerdì_ |
+| Connettività       | _rete mobile_                         |
+
+## ARCHETIPI
+
+| ID      | Archetipo | Contesto d'uso | Competenze digitali | Dispositivo principale | Frequenza d'uso |
+| ------- | --------- | -------------- | ------------------- | ---------------------- | --------------- |
+| ARC-001 | Direttore | _…_            | _…_                 | _…_                    | _…_             |
+| ARC-002 | Docente   | _…_            | _…_                 | _…_                    | _…_             |
+| ARC-003 | Studente  | _…_            | _…_                 | _…_                    | _…_             |
 
 ## Direttore
 
@@ -75,17 +83,22 @@ Lo studente ha la possibilità di vedere le comunicazioni di servizio nella sezi
 
 ## REQUISITI NON FUNZIONALI
 
-| ID | Famiglia | Requisito | Soglia e condizione | Come si verifica | Storie collegate |
-| --- | --- | --- | --- | --- | --- |
-| NFR-01 | Prestazioni | *es. Apertura della verifica nel picco* | *es. meno di 2 s per il 95% delle richieste, 75 utenti nello stesso minuto* | *Test di carico* | *STU-02* |
-| NFR-02 | Sicurezza | *Il software ha bisogno di una pagina di login* | *se qualcuno prova ad accedere l'app senza aver fatto il login la prima cosa che spunta è la pagina di login* | *provando a entrare nell'app senza eseguire l'accesso* | *…* |
-| NFR-03 | Usabilità | *…* | *…* | *…* | *…* |
-| NFR-04 | Disponibilità | *…* | *…* | *…* | *…* |
-| NFR-05 | Ambientale | *…* | *…* | *…* | *…* |
-| NFR-06 | Supporto | *l'appiclazione deve funzionare sia su pc che su smartphone* | *l'applicazione deve essere visualizzabile sia su pc che su smartphone (magari consentendo la modifica solo su pc)* | *-* | *…* |
-| NFR-07 | Interazione | *il software deve essere facile da capire e responsivo* | *il software deve avere delle interazioni dove si capisce subito cosa fa una operazione* | *quando si fanno delle operazioni ci sono delle animazioni e nei pulsanti compaiono delle descrizioni* | *…* |
-| NFR-08 | Conformità | *…* | *…* | *…* | *…* |
+| ID     | Famiglia                   | Requisito                                                                                                   | Soglia e condizione                                                                                                 | Come si verifica                                                                                       | Storie collegate |
+| ------ | -------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ---------------- |
+| NFR-01 | Prestazioni                | _es. Apertura della verifica nel picco_                                                                     | _es. meno di 2 s per il 95% delle richieste, 75 utenti nello stesso minuto_                                         | _Test di carico_                                                                                       | _STU-02_         |
+| NFR-02 | Sicurezza                  | _Il software ha bisogno di una pagina di login_                                                             | _se qualcuno prova ad accedere l'app senza aver fatto il login la prima cosa che spunta è la pagina di login_       | _provando a entrare nell'app senza eseguire l'accesso_                                                 | _…_              |
+| NFR-03 | Usabilità (da cambiare?)   | _…_                                                                                                         | _…_                                                                                                                 | _…_                                                                                                    | _…_              |
+| NFR-04 | Disponibilità/Affidabilità | _Poter essere accessibile il 99% del tempo, cercando di ridurre le interruzioni per manutenzione al minimo_ | _-_                                                                                                                 | _-_                                                                                                    | _…_              |
+| NFR-06 | Supporto                   | _l'appiclazione deve funzionare sia su pc che su smartphone_                                                | _l'applicazione deve essere visualizzabile sia su pc che su smartphone (magari consentendo la modifica solo su pc)_ | _-_                                                                                                    | _…_              |
+| NFR-07 | Interazione                | _il software deve essere facile da capire e responsivo_                                                     | _il software deve avere delle interazioni dove si capisce subito cosa fa una operazione_                            | _quando si fanno delle operazioni ci sono delle animazioni e nei pulsanti compaiono delle descrizioni_ | _…_              |
+| NFR-08 | Conformità                 | _il GDPR per i dati personali (controllare bene Quali sono le legislazioni in questo settore)_              | _?_                                                                                                                 | _?_                                                                                                    | _…_              |
 
+## REQUISITI IMPLICITI
+
+| Chi avete intervistato | Cosa ha detto                     | Requisito che ne avete ricavato |
+| ---------------------- | --------------------------------- | ------------------------------- |
+| _nome o iniziali_      | _"Il voto non deve sparire, mai"_ | _NFR-…_                         |
+|                        |                                   |                                 |
 
 ## STAKEHOLDER
 
@@ -100,12 +113,12 @@ Lo studente ha la possibilità di vedere le comunicazioni di servizio nella sezi
 
 ## Scelte tecnologiche
 
-| Area             | Scelta | Alternativa considerata | Perché avete scelto così |
-| ---------------- | ------ | ----------------------- | ------------------------ |
-| Backend          | C# (Asp.Net )    | _…_                     | _…_                      |
-| Frontend         | React?    | _…_                     | _…_                      |
-| Database         | _…_    | _…_                     | _…_                      |
-| Provider cloud   | _…_    | _…_                     | _…_                      |
-| Servizi cloud    | _…_    | _…_                     | _…_                      |
-| Regione          | _…_    | _…_                     | _…_                      |
-| Servizio esterno | _…_    | _…_                     | _…_                      |
+| Area             | Scelta                 | Alternativa considerata | Perché avete scelto così |
+| ---------------- | ---------------------- | ----------------------- | ------------------------ |
+| Backend          | C# (Asp.Net )          | _…_                     | _…_                      |
+| Frontend         | React?                 | _…_                     | _…_                      |
+| Database         | _…_                    | _…_                     | _…_                      |
+| Provider cloud   | _…_                    | _…_                     | _…_                      |
+| Servizi cloud    | _…_                    | _…_                     | _…_                      |
+| Regione          | _verso centro europa?_ | _…_                     | _vicinanza dal veneto?_  |
+| Servizio esterno | _…_                    | _…_                     | _…_                      |
