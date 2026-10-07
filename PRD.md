@@ -33,11 +33,26 @@
 
 ## ARCHETIPI
 
-| ID      | Archetipo | Contesto d'uso | Competenze digitali | Dispositivo principale | Frequenza d'uso |
-| ------- | --------- | -------------- | ------------------- | ---------------------- | --------------- |
-| ARC-001 | Direttore | _…_            | _…_                 | _…_                    | _…_             |
-| ARC-002 | Docente   | _…_            | _…_                 | _…_                    | _…_             |
-| ARC-003 | Studente  | _…_            | _…_                 | _…_                    | _…_             |
+| ID      | Archetipo | Contesto d'uso | Competenze digitali | Dispositivo principale | Frequenza d'uso     |
+| ------- | --------- | -------------- | ------------------- | ---------------------- | ------------------- |
+| ARC-001 | Direttore | _…_            | _…_                 | _Computer_             | _Ogni Giorno_       |
+| ARC-002 | Docente   | _…_            | _…_                 | _Computer_             | _Ogni Giorno_       |
+| ARC-003 | Studente  | _…_            | _…_                 | _Smartphone_           | _Quasi Ogni Giorno_ |
+
+## USER STORY
+
+| ID     | Storia                            | AC aggiunti dal team | Note |
+| ------ | --------------------------------- | -------------------- | ---- |
+| DIR-01 | Creare account docente            | _…_                  | _…_  |
+| DIR-02 | Creare account studente           | _…_                  | _…_  |
+| DIR-03 | Creare classi e comporle          | _…_                  | _…_  |
+| DIR-04 | Vedere tutto                      | _…_                  | _…_  |
+| DOC-01 | Caricare materiale didattico      | _…_                  | _…_  |
+| DOC-02 | Creare le proprie verifiche       | _…_                  | _…_  |
+| DOC-03 | Assegnare i voti                  | _…_                  | _…_  |
+| STU-01 | Consultare il materiale didattico | _…_                  | _…_  |
+| STU-02 | Svolgere una verifica             | _…_                  | _…_  |
+| STU-03 | Consultare i propri voti          | _…_                  | _…_  |
 
 ## Direttore
 
@@ -81,6 +96,17 @@ Lo Studente ha la possibilità di guardare le prossime lezioni e i propri compit
 
 Lo studente ha la possibilità di vedere le comunicazioni di servizio nella sezione delle notifiche importanti
 
+## STAKEHOLDER
+
+| Stakeholder                 | Cosa fa                             | Cosa gli interessa | Come lo coinvolgete     |
+| --------------------------- | ----------------------------------- | ------------------ | ----------------------- |
+| Direttore                   | _…_                                 | _…_                | _…_                     |
+| Docenti                     | _…_                                 | _…_                | _…_                     |
+| Studenti                    | _…_                                 | _…_                | _…_                     |
+| Docente del corso           | Valida il PRD                       | _…_                | Presentazione e domande |
+| Collaudatori del primo anno | Usano ScuolaChill come utenti reali | _…_                | _Intervista, collaudo_  |
+| _Altri?_                    |                                     |                    |                         |
+
 ## REQUISITI NON FUNZIONALI
 
 | ID     | Famiglia                   | Requisito                                                                                                   | Soglia e condizione                                                                                                 | Come si verifica                                                                                       | Storie collegate |
@@ -100,23 +126,51 @@ Lo studente ha la possibilità di vedere le comunicazioni di servizio nella sezi
 | _nome o iniziali_      | _"Il voto non deve sparire, mai"_ | _NFR-…_                         |
 |                        |                                   |                                 |
 
-## STAKEHOLDER
+## ASSUNZIONI
 
-| Stakeholder                 | Cosa fa                             | Cosa gli interessa | Come lo coinvolgete     |
-| --------------------------- | ----------------------------------- | ------------------ | ----------------------- |
-| Direttore                   | _…_                                 | _…_                | _…_                     |
-| Docenti                     | _…_                                 | _…_                | _…_                     |
-| Studenti                    | _…_                                 | _…_                | _…_                     |
-| Docente del corso           | Valida il PRD                       | _…_                | Presentazione e domande |
-| Collaudatori del primo anno | Usano ScuolaChill come utenti reali | _…_                | _Intervista, collaudo_  |
-| _Altri?_                    |                                     |                    |                         |
+| ID     | Assunzione                                   | Cosa succede se è falsa         |
+| ------ | -------------------------------------------- | ------------------------------- |
+| ASS-01 | _es. La scuola ha 800 studenti e 60 docenti_ | _Il dimensionamento va rifatto_ |
+|        |                                              |                                 |
+
+## VINCOLI
+
+| ID     | Vincolo                                             | Da dove viene          |
+| ------ | --------------------------------------------------- | ---------------------- |
+| VIN-01 | _es. Il budget cloud è quello dei crediti studente_ | _Traccia del progetto_ |
+|        |                                                     |                        |
+
+## DIPENDENZE
+
+| ID     | Vincolo                                             | Da dove viene          |
+| ------ | --------------------------------------------------- | ---------------------- |
+| VIN-01 | _es. Il budget cloud è quello dei crediti studente_ | _Traccia del progetto_ |
+|        |                                                     |                        |
+
+## UTENTI CONCORRENTI
+
+| Situazione                      | Utenti concorrenti | Da dove viene il numero                                |
+| ------------------------------- | ------------------ | ------------------------------------------------------ |
+| Uso normale durante la giornata | _…_                | _…_                                                    |
+| Picco delle 9:00 (verifiche)    | _500_              | _numero massimo di utenti che il software può gestire_ |
+| Fine quadrimestre (voti)        | _…_                | _…_                                                    |
+
+## PROFILO DI CARICO
+
+| Operazione              | Frequente? | Pesante? | Critica? | Note |
+| ----------------------- | ---------- | -------- | -------- | ---- |
+| Login                   | _…_        | _…_      | _si_     | _…_  |
+| Apertura verifica       | _…_        | _…_      | _…_      | _…_  |
+| Consegna verifica       | _…_        | _…_      | _…_      | _…_  |
+| Dashboard del Direttore | _…_        | _…_      | _…_      | _…_  |
+| Caricamento materiale   | _…_        | _…_      | _…_      | _…_  |
 
 ## Scelte tecnologiche
 
 | Area             | Scelta                 | Alternativa considerata | Perché avete scelto così |
 | ---------------- | ---------------------- | ----------------------- | ------------------------ |
-| Backend          | C# (Asp.Net )          | _…_                     | _…_                      |
-| Frontend         | React?                 | _…_                     | _…_                      |
+| Backend          | _C# (Asp.Net )_        | _…_                     | _…_                      |
+| Frontend         | _React?_               | _…_                     | _…_                      |
 | Database         | _…_                    | _…_                     | _…_                      |
 | Provider cloud   | _…_                    | _…_                     | _…_                      |
 | Servizi cloud    | _…_                    | _…_                     | _…_                      |
