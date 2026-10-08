@@ -33,32 +33,34 @@
 
 ## ARCHETIPI
 
-| ID      | Archetipo | Contesto d'uso | Competenze digitali | Dispositivo principale | Frequenza d'uso     |
-| ------- | --------- | -------------- | ------------------- | ---------------------- | ------------------- |
-| ARC-001 | Direttore | _…_            | _…_                 | _Computer_             | _Ogni Giorno_       |
-| ARC-002 | Docente   | _…_            | _…_                 | _Computer_             | _Ogni Giorno_       |
-| ARC-003 | Studente  | _…_            | _…_                 | _Smartphone_           | _Quasi Ogni Giorno_ |
+| ID      | Archetipo | Contesto d'uso                                                | Competenze digitali | Dispositivo principale | Frequenza d'uso |
+| ------- | --------- | ------------------------------------------------------------- | ------------------- | ---------------------- | --------------- |
+| ARC-001 | Direttore | _Poter organizzare come si svolgerà l'intero anno scolastico_ | _Medio-Basse_       | _Computer_             | _Ogni Giorno_   |
+| ARC-002 | Docente   | _Fare l'appello/dare compiti_                                 | _Basse_             | _Computer_             | _Ogni Giorno_   |
+| ARC-003 | Studente  | _Poter controllare i propri compiti/orari/voti ecc._          | _Medio-Alte_        | _Smartphone_           | _Ogni Giorno_   |
 
 ## USER STORY
 
-| ID     | Storia                            | AC aggiunti dal team | Note |
-| ------ | --------------------------------- | -------------------- | ---- |
-| DIR-01 | Creare account docente            | _…_                  | _…_  |
-| DIR-02 | Creare account studente           | _…_                  | _…_  |
-| DIR-03 | Creare classi e comporle          | _…_                  | _…_  |
-| DIR-04 | Vedere tutto                      | _…_                  | _…_  |
-| DOC-01 | Caricare materiale didattico      | _…_                  | _…_  |
-| DOC-02 | Creare le proprie verifiche       | _…_                  | _…_  |
-| DOC-03 | Assegnare i voti                  | _…_                  | _…_  |
-| STU-01 | Consultare il materiale didattico | _…_                  | _…_  |
-| STU-02 | Svolgere una verifica             | _…_                  | _…_  |
-| STU-03 | Consultare i propri voti          | _…_                  | _…_  |
+| ID     | Storia                             | AC aggiunti dal team                                                                                                        | Note                                                                                |
+| ------ | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| DIR-01 | Creare account docente             | _La Password deve almeno avere 8 caratteri?_                                                                                | _-_                                                                                 |
+| DIR-02 | Creare account studente            | _La Password deve almeno avere 8 caratteri?_                                                                                | _-_                                                                                 |
+| DIR-03 | Creare classi e comporle           | _Il Direttore deve avere la possibilità di organizzare l'orario e la posizione delle classi, con layout a drop down_        | _poi da vedere lo stile, avevo pensato a una planimetria della scuola semplificata_ |
+| DIR-04 | Vedere tutto                       | _Poter vedere tutte le classi, tutti i compiti/annotazioni/avvisi che ci sono per classi_                                   | _…_                                                                                 |
+| DIR-05 | Creazione del Calendario dell'anno | _Poter organizzare gli orari e poterli modificare velocemente in caso di imprevisti_                                        | _poter inviare messaggi di promemoria_                                              |
+| DOC-01 | Caricare materiale didattico       | _Un funzionamento simile a google classroom_                                                                                | _Mandare delle notifiche agli studenti quando il docente aggiunge del materiale?_   |
+| DOC-02 | Assenze, Presenze, Ritardi         | _Poter mettere se un alunno è presente o assente con pochi click_                                                           | _…_                                                                                 |
+| DOC-03 | Assegnare i voti                   | _Poter Decidere i voti e modificarli con un menu a cascata_                                                                 | _…_                                                                                 |
+| STU-01 | Consultare il materiale didattico  | _Avere a disposizione un abiente simile a google classroom/drive dove lo studente può visuallizzare il materiale assegnato_ | _…_                                                                                 |
+| STU-02 | Consultare il calendario           | _Avere accesso in qualunque momento al calendario_                                                                          | _Poter vedere i compiti assegnati su quel giorno nel calendario_                    |
+| STU-03 | Consultare i propri voti           | _Avere la possibilità di consultare i propri voti in qualunque momento_                                                     | _con medie ecc._                                                                    |
+| STU-04 | Comunicazioni di servizio          | _Avere una sezione notifiche dove arrivano notifiche dei docenti e comunicazioni di servizio_                               | _-_                                                                                 |
 
 ## Direttore
 
 ### User Story 1
 
-Il Direttore ha la possibilità di organizzare l'orario e la posizione delle classi, con layout a drop down (poi da vedere lo stile, avevo pensato a una planimetria della scuola semplificata) con la possibiltà di creare l'orario per tutto l'anno scolastico (dove puoi vedere esattamente in che aula sono le classi in quell'ora), e in caso di bisogno modificare l'orario o la posizione delle classi per una specifica ora (inviando anche una notifica agli studenti e docenti in caso di variazione)
+() con la possibiltà di creare l'orario per tutto l'anno scolastico (dove puoi vedere esattamente in che aula sono le classi in quell'ora), e in caso di bisogno modificare l'orario o la posizione delle classi per una specifica ora (inviando anche una notifica agli studenti e docenti in caso di variazione)
 
 ### User Story 2
 
@@ -98,14 +100,14 @@ Lo studente ha la possibilità di vedere le comunicazioni di servizio nella sezi
 
 ## STAKEHOLDER
 
-| Stakeholder                 | Cosa fa                             | Cosa gli interessa | Come lo coinvolgete     |
-| --------------------------- | ----------------------------------- | ------------------ | ----------------------- |
-| Direttore                   | _…_                                 | _…_                | _…_                     |
-| Docenti                     | _…_                                 | _…_                | _…_                     |
-| Studenti                    | _…_                                 | _…_                | _…_                     |
-| Docente del corso           | Valida il PRD                       | _…_                | Presentazione e domande |
-| Collaudatori del primo anno | Usano ScuolaChill come utenti reali | _…_                | _Intervista, collaudo_  |
-| _Altri?_                    |                                     |                    |                         |
+| Stakeholder                 | Cosa fa                               | Cosa gli interessa | Come lo coinvolgete       |
+| --------------------------- | ------------------------------------- | ------------------ | ------------------------- |
+| Direttore                   | _…_                                   | _…_                | _…_                       |
+| Docenti                     | _…_                                   | _…_                | _…_                       |
+| Studenti                    | _…_                                   | _…_                | _…_                       |
+| Docente del corso           | _Valida il PRD_                       | _…_                | _Presentazione e domande_ |
+| Collaudatori del primo anno | _Usano ScuolaChill come utenti reali_ | _…_                | _Intervista, collaudo_    |
+| _Altri?_                    |                                       |                    |                           |
 
 ## REQUISITI NON FUNZIONALI
 
