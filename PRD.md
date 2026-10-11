@@ -192,13 +192,13 @@
 
 ## PROFILO DI CARICO
 
-| Operazione              | Frequente?                      | Pesante?                   | Critica?       | Note                                                                                                  |
-| ----------------------- | ------------------------------- | -------------------------- | -------------- | ----------------------------------------------------------------------------------------------------- |
-| Login                   | _Solo i primi giorni di scuola_ | _no_                       | _si_           | _-_                                                                                                   |
-| Apertura Calendario     | _Molto_                         | _no_                       | _no_           | _-_                                                                                                   |
-| Consegna Compiti        | _Abbastanza_                    | _no_                       | _no_           | _-_                                                                                                   |
-| Dashboard del Direttore | _Raro_                          | _no_                       | _si_           | _-_                                                                                                   |
-| Caricamento materiale   | _Almeno due volte al mese_      | _Dipende dal tipo di file_ | _semi-cirtico_ | _inteso che: se non c'è non impedisce al software di funzionare, ma mancherebbe una parte importante_ |
+| Operazione              | Frequente?                        | Pesante?                   | Critica?       | Note                                                                                                  |
+| ----------------------- | --------------------------------- | -------------------------- | -------------- | ----------------------------------------------------------------------------------------------------- |
+| Login                   | _Solo i primi giorni di scuola_   | _no_                       | _si_           | _-_                                                                                                   |
+| Apertura Calendario     | _Molto_                           | _no_                       | _no_           | _-_                                                                                                   |
+| Consegna Compiti        | _Abbastanza_                      | _no_                       | _no_           | _-_                                                                                                   |
+| Dashboard del Direttore | _Raro_                            | _no_                       | _si_           | _-_                                                                                                   |
+| Caricamento materiale   | _Almeno due volte alla settimana_ | _Dipende dal tipo di file_ | _semi-cirtico_ | _inteso che: se non c'è non impedisce al software di funzionare, ma mancherebbe una parte importante_ |
 
 ## Scelte tecnologiche
 
