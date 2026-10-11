@@ -17,7 +17,7 @@
 
 ## PERCHÉ ESISTE SCUOLACHILL
 
-#### Lato Business: permette di organizzare la scuola in modo completo, gestendo dove sono le classi in una specifica ora, poter gestire le assenze di una classe, i voti, i materiali da dare agli studenti, avvisi importanti ecc.
+#### Lato Business: permette di organizzare la scuola in modo completo, gestendo dove sono le classi in una specifica ora, poter gestire i voti, i materiali da dare agli studenti, avvisi importanti ecc.
 
 #### Non è inlcuso: Account per i Genitori, Svolgimento di verifiche All'interno del Software
 
