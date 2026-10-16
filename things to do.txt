@@ -1,0 +1,11 @@
+1- Fare i diversi account
+
+2- Fare il processo per poter creare classi
+
+3- Fare il calendario
+
+4- Creare il modo per caricare e scaricare file
+
+5- creare il modo per fare la piantina delle classi
+
+6- 
